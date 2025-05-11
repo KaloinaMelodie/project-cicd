@@ -1,0 +1,7 @@
+[submodule "studentmanagement"]
+    path = studentmanagement
+    url = https://github.com/KaloinaMelodie/studentmanagement.git
+
+[submodule "project-tp01_1_8_51_52_54"]
+    path = project-tp01_1_8_51_52_54
+    url = https://github.com/KaloinaMelodie/project-tp01_1_8_51_52_54.git
