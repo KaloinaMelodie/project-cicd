@@ -49,3 +49,11 @@ jobs:
         file: ./project-tp01_1_8_51_52_54/Dockerfile
         push: true
         tags: kaloina/project-cicd-frontend:latest
+
+    - name: Trigger Render Deploy (Backend)
+      run: |
+        curl -X POST https://api.render.com/deploy/srv-d0foeii4d50c73f4j4q0?key=Y0cn0rM1_jQ
+
+    - name: Trigger Render Deploy (Frontend)
+      run: |
+        curl -X POST https://api.render.com/deploy/srv-d0fod7ruibrs73eu4kv0?key=OaNWsCCjG5Q
